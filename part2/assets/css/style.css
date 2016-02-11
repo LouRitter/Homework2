@@ -1,0 +1,529 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background: url(../images/grey_wash_wall.png);	
+
+}
+#nav{
+	float: right;
+	list-style-type: none;
+	padding-right: 200px;
+	padding-top: 20px;
+}
+#nav li{
+	padding-right: 8px;
+
+}
+li{
+	display: inline-block;
+}
+.content{
+	background-color: #ffffff;
+	width: 650px;
+	float: inherit;
+	float: left;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	font-family: Arial;
+	border:solid;
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: #bbbbbb;
+	margin-bottom: 150px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+.sidebar{
+	width: 270px;
+	background-color: #ffffff;
+	float: right;
+	margin-right: 20px;
+	padding: 7px;
+	line-height: 3;
+	border:solid;
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: #bbbbbb;
+	margin-top: 50px;
+}
+.sidebar h4{
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.logos {
+	text-align: center;
+}
+#propic{
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding-top: 20px;
+	margin-right: 10px;
+}
+.logos li img{
+	width: 50px;
+	height: 50px;
+	padding-top: 20px;
+}
+.foot{
+	bottom: 0;
+	text-align: center;
+	background-color: #333333;
+	height: 30px;
+	width: 100%;
+	padding-top: 15px;
+	position: fixed;
+	color: #cccccc;
+}
+.portpics img{
+	height: 225px;
+	width: 225px;
+}
+.tealheads {
+	color: #4aaaa5;
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-weight: bold;
+
+}
+h1{
+	font-size: 64px;
+}
+.line{
+	height: 3px;
+	background-color: #dddddd;
+}
+#name {
+	font-size: 36px;
+	color: #FFFFFF;
+	background-color: #4aaaa5;
+	width: 185px;
+	height: 60px;
+	margin-left: 80px;
+	text-align: center;
+	position: absolute;
+	padding-top: 10px;
+}
+
+h4{
+	font-size: 36px;
+	padding-top: 10px;
+}
+
+header{
+	height: 70px;
+	background-color: #FFFFFF;
+	padding-right: 200px;
+	margin:0;
+	width: 100%;
+}
+.header{
+	width: 100%;
+	border-bottom: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #bbbbbb;
+}
+textarea{
+	height: 200px;
+	width: 100px;
+	text-align: center;
+}
+.container{
+	padding-left: 80px;
+	padding-top: 15px;
+	
+
+}
+.portpics h3{
+	background:rgba(74,170,165,.8);
+	padding:8px;
+	margin: 18px;
+	margin-left: 7px;
+	position: relative;
+	margin-top: -80px;
+	width: 225px;
+	border-radius: 5px;
+	text-align: center;
+}
+#rpg{
+	margin-left: 40px;
+}
+#hangman{
+float: right;
+margin-bottom: 300px;
+margin-right: 40px;
+}
+#rock{
+	float: right;
+	margin-bottom: 250px;
+	position: inherit;
+	margin-top: -487.5px;
+	margin-right: 40px;
+}
+#trivia{
+	margin-top: 50px;
+	margin-left: 40px;
+}
+#rutgers{
+	margin-top: 50px;
+	margin-left: 40px;
+}
+.content p{
+	float:left;
+	font-size: 18px;
+	padding-left: 210px;
+	padding-bottom: 300px;
+	padding-top: 20px;
+	margin-top: -220px;
+
+}
+h4{
+	font-weight: bold;
+}
+button{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 120px;
+	height: 50px;
+	font-family: Arial;
+	font-weight: bold;
+
+}
+.portpics a:hover{
+	color: #ffffff;
+	font-weight: bold;
+}
+.portpics a:link{
+	color: #ffffff;
+}
+.portpics a:visited{
+	color: #dddddd;
+
+}
+a:link{
+	color: #333333;
+	text-decoration: none;
+}
+a:hover{
+	color: #4aaaa5;
+}
+.portpics img{
+	padding: 15px;
+	position: ;
+}
+input{
+	padding-top: 10px;
+	width: 400px;
+	margin-bottom: 7px;
+}
+textarea{
+	width: 600px;
+	height: 300px;
+	margin-bottom: 5px;
+}
+#footline{
+	background-color: #4aaaa5;
+	height: 2px;
+	width: 100%;
+	padding-bottom: 5px;
+	margin-top: -18px;
+
+}
+footer p{
+	margin-top: 20px;
+}
+@media screen and (max-width: 1080px){
+
+.content{
+	width: 400px;
+	margin-left: 80px;
+	padding-bottom: 0px;
+
+}
+
+#propic{
+	width:350px;
+	height: 350px;
+}
+.content p{
+	float:left;
+	margin-top: 20px;
+	padding-left: 0px;
+ }
+.sidebar{
+	margin-left: 580px;
+	position: absolute;
+}
+
+textarea{
+	width: 400px;
+	height: 200px;
+}
+.portpics{
+	display: inherit;
+	float: left;
+
+
+}
+.portpics img{
+	width: 300px;
+	height: 300px;
+}
+.portpics h3{
+	width: 300px;
+}
+#hangman{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 30px;
+}
+#rock{
+	margin: 0px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0px;
+}
+}
+@media screen and (max-width: 768px){
+.header{			
+	width: 100%; 
+	}
+body{
+	padding: 0px;
+	margin: 0px;
+	width: 100%
+	}
+#name{
+	margin-left: 20px;
+	}
+#nav{
+	margin:0px;
+	padding:0px;
+	margin-left: 0px;
+	float: right;
+	margin-top: 20px;
+	}
+.content{
+	margin-left: 20px;
+	width:645px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	}
+.content p{
+	float: top;
+	display: inline-block;
+	margin-top: 0px;
+	margin-right: 40px;
+	position: absolute;
+	margin-bottom: 20px;
+	}
+.sidebar{
+	width:620px;
+	position: relative;
+	margin-top: 20px;
+	margin-left: 33px;
+	float: left;
+	margin-bottom: 80px;
+	}
+#propic{
+	width: 300px;
+	height: 250px;
+	float: left;
+	margin-bottom: 20px;	
+	}
+.container-fluid{
+	margin-right: 20px;
+	width: 100%;
+	}
+	
+.portpics img{
+	width: 250px;
+	height: 200px;
+	display: inline;
+}
+.portpics h3{
+	width: 250px;
+}
+#hangman{
+	margin: 0px;
+	padding: 10px;
+	margin-right: -300px;
+	margin-bottom: 20px;
+}
+#rock{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	margin-right: -290px;
+	margin-top: -430px;
+	position: inherit;
+}
+#rpg{
+	margin: 0px;
+	padding: 0px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+#trivia{
+	margin:0px;
+	padding: 0px;
+	margin-top: 40px;
+}
+#rutgers{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 40px;
+}
+input{
+	width:650px; 
+}
+textarea{
+	width:650px;
+	height: 300px;
+}
+}
+@media screen and (max-width: 640px){
+	body{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	#name{
+		width: 100%;
+		margin-left:0px;
+		margin-right: 0px;
+		font-size: 36px;
+		font-family: sans-serif;
+	}
+	#nav{
+		margin-top: 60px;
+		float: left;
+		position: relative;
+		background-color: #FFFFFF;
+		width: 100%;
+		font-size: 24px;
+		padding-top: 10px;
+		padding-bottom: 5px;
+
+
+	}
+	#nav li{
+		padding-left: 15%;
+		color: #dddddd;
+		font-family: sans-serif;
+		position: inherit;
+	}
+	#nav a:link{
+		color: #dddddd;
+	}
+	#nav a:visited{
+		color: #aaaaaa;
+	}
+	.content{
+		width: 540px;
+	}
+	#propic{
+		width: 500px;
+		height: 500px;
+	}
+	.content p{
+		float: left;
+		margin: 0;
+		padding:0;
+		position: relative;
+	}
+	.sidebar{
+		width: 565px;
+		margin-left: 10px;
+	}
+
+	input{
+		width: 540px;
+	}
+	textarea{
+		width: 540px;
+	}
+	.portpics img{
+		margin: 0px;
+		padding: 0px;
+		float: none;
+		display: inline;
+		width: 540px;
+		padding-top: 20px;
+		height:400px;
+	}
+	.portpics h3{
+		margin:0px;
+		width: 525px;
+		float: left;
+		margin-top: -100px;
+		height: 50px;
+		font-size: 36px;
+		padding-top: 20px;
+		font-weight: bolder;
+
+	}
+	.portpics a:hover{
+		font-weight: normal;
+	}
+	#hangman{
+		margin: 0px;
+		padding: 0px;
+		float: left;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	#rock{
+		margin: 0px;
+		padding: 0px;
+		padding-top: 25px;
+		padding-bottom: 20px;
+		float: left;
+	}
+	#rpg{
+		padding-top: 20px;
+	}
+	.foot{
+		margin: 0px;
+		padding: 0px;
+		position:inherit;
+		bottom: 0;
+		float: left;
+		height: 40px;
+}
+	#footline{
+		padding:0px;
+		margin: 0px;
+	}
+	footer{
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+/* bootstrap. css*/
+
+.jumbotron img{
+	float: left;
+	margin-right: 10px;
+}
+.jumbotron p{
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+h1{
+	padding-bottom: 50px;
+}
+ .container img{
+	padding: 15px;
+	margin-top: 20px;
+}
